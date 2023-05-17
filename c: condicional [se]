@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){ //inicio
+
+int idade; 
+char nome[10];
+  
+  printf("qual seu nome:"); //escreval 
+  scanf("%s", &nome); //leia
+
+  printf("digite sua idade:"); //escreval 
+scanf("%d ", &idade); //escreval
+
+  printf(" idade: %d\n" , idade); //escreval  
+  printf (" nome: %c\n ", nome); //escreval 
+ 
+ 
+ if (idade >= 18 ){   //se
+ printf (" voce e de maior.\n" );//leia
+ } else {//senao 
+ printf (" menor de idade:\n");//leia 
+}
+return 0;
+}
