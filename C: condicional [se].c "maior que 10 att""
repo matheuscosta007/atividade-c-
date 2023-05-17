@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{ // inicio
+
+    int numero; // var
+
+    printf("digite um numero:"); // escreval
+    scanf("%d", &numero);        // escreval
+
+    if (numero < 10)
+    {                                      // se
+        printf(" numero: menor que 10\n"); // escreval
+    }
+    else
+    {
+        printf(" numero: maior que 10\n"); // escreval
+    }
+    printf(" numero: %d\n", numero); // escreval
+    return 0;
+}
