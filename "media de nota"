@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){ // inicio
+
+//var 
+char nome[100];
+char materia[100];
+int idade,nota1, nota2;
+float media; 
+
+printf("qual seu nome?:");//escreval 
+scanf("%s", &nome); //leia 
+
+printf("qual sua idade?:");//escreval 
+scanf("%d", &idade); //leia 
+
+printf("fale sua materia?:");//escreval 
+scanf("%s", &materia ); //leia 
+
+printf("fale sua nota de: %s\n", materia); //escreval 
+scanf("%f", &nota1); //leia 
+printf("fale sua nota de: %s\n", materia); //escreval 
+scanf("%f", &nota2); //leia 
+
+media = (nota1 + nota2)/2;//soma 
+
+printf("NOME: %s\n", nome);//escreval
+printf("primeira nota; %f\n", nota1); //escreval 
+printf("primeira nota; %f\n", nota2); //escreval 
+printf("MEDIA: %f\n",media);//escreval 
+
+
+}
