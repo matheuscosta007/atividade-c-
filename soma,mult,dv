@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{ // inicio
+
+    // var
+    int soma, nota[5], i;
+    float media, mult;
+    mult = 1;
+     
+    for (i = 1; i <= 5; i++) // para
+    {
+        printf("%d digite um numero:", i); // escreval
+     scanf("%d", &nota[i]);             // leia
+     
+    soma = soma + nota[i];
+    mult = mult * nota[i];   
+    }
+   
+     media =  soma/ 4;
+    
+    printf("SOMA; %d\n", soma);   // escreeval
+    printf(" MEDIA;%f\n", media); // escreval
+    printf("PRODUTO;%f\n", mult); // escreval
+
+    for (i = 1; i <= 5; i++)
+    {
+        printf("%d numero:%d\n", i, nota[i]); // escreval
+    }
+    return 0;
+}
